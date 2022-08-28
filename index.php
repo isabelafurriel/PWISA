@@ -3,7 +3,7 @@
 
 <?php 
 
-echo "Minha mensagem";
+echo "Minha mensagem \n";
 echo"<br>";
 echo "<h1>Meu HTML</h1>";
 
@@ -24,30 +24,49 @@ $subtracao = $prova1 - $prova2;
 CONST NOMECOMPLETO = "ISABELA FURRIEL PALONE";
 echo "<p>". NOMECOMPLETO. "<p>"; 
 
-$faltas = 23;
+$faltas = 21;
 echo"<br>";
 
 
 if($media >= 6 && $faltas  <= 20 ){
-    echo"Aprovado";
+    echo"<br>Aprovado"."<br>";
 
 }else{
-    echo "reprovado";
+    echo "<br>reprovado<br>";
 }
-$cont = 0;
 
+# != Diferente
+# == Igual
+# > maior
 # < menor
 # >= maior e igual
 # <= menor ou igual
 # === mesmo conteudo e mesmo tipo
 
 
-$valor = 20;
+$valor = 10;
 
 #valor + valor + 5;
 $valor  += 5;
-#Resto da divisão(MOD)
+$valor  -= 7;
+$valor  *= 2;
+$valor  /= 1;
 
+#Incremento  para laço de repetição
+$valor +=1;
+
+#Resto da divisão(MOD)
+$resto = 4 % 2;
+
+echo "<p>";
+//se for par ou  impar 
+if($valor % 2 == 0){
+    echo "par";
+}else {
+    echo "impar";
+}
+
+echo "</p>";
 #Incremento e decremento 1 em 1
 $cont = 0;
 $cont++;
@@ -64,14 +83,14 @@ while($cont < 10)
 {
     #Faça
 }
-
-for ($i = 0; $i < 10; $i++)
-{
+for ($i = 0; $i < 10; $i++){
+     echo "<h2>For i:".$i."</h2>";
+}
+for($i = 1; $i <= 5197; $i++)
     if($i % 2 == 0){
-        echo $i."É par>";
+        echo $i." é par<br>";
     }else{
-        echo $i."É impar>";
+        echo $i." é impar<br>";
     }
 
-}
 ?>
