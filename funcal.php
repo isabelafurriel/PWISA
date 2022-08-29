@@ -13,7 +13,7 @@ function ImprimirTexto($texto)
 }
 function Adicao($numero1, $numero2){
 
-    return Media( $numero1 + $numero2);
+    return Adicao( $numero1 + $numero2);
 }
 function Media($numero1, $numero2){
 
