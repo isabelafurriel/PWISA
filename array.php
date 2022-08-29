@@ -74,7 +74,9 @@ print_r($cadastro);
 echo"</pre>";
 
 
-$numeros = array( rand(-10,10), rand(-10,10),)
+for($i = 0; $i<10; $i++){
+    $num[$i] = rand(-10, 10);
+}
 
 
 
