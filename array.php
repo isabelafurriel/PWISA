@@ -75,7 +75,7 @@ echo"</pre>";
 
 
 for($i = 0; $i<10; $i++){
-    $num[$i] = rand(-10, 10);
+    $numeros[$i] = rand(-10, 10);
 }
 
 
