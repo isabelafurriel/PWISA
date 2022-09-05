@@ -42,7 +42,7 @@ ImprimirTexto( "Média 8 e 7 =". Media(8,7) );//7.5
 
 //ImprimirTexto("Minha chamada da função");
 //ImprimirTexto("2º");
-//ImprimirTexto("terceira");
+//ImprimirTexto("terceira"); 
 //ImprimirTexto("quarta vez que eu chamo");
 //ImprimirTexto("Ultima chamada");
 
