@@ -70,7 +70,7 @@ echo $positivos.'positivos<br>';
 function porc($n1,$n2)
 {
     $por = $n1*($n2/100);
-    echo "<br> procentagem eh ".$por;
+    echo "<br> porcentagem é ".$por;
 
    
 }
