@@ -24,7 +24,6 @@ const NOMECOMPLETO = "ISABELA FURRIEL PALONE";
 echo "<p>" . NOMECOMPLETO . "<p>";
 
 $faltas = 21;
-echo "<br>";
 
 
 if ($media >= 6 && $faltas  <= 20) {

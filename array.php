@@ -1,12 +1,15 @@
 <?php
 //Array
-$carros = array();
-//            0   1        2          3
+$carros = array ();
+//            0     1        2          3
 $carros = ["BMW" ,"Gol", "Saveiro", "Hilux"];
-
-for ($i = 0; $i < count($carros); $i ++)
+/*
+echo "</ul>";
+for ($i = 0; $i < count($carros); $i++)
 {
-echo"<li> $carros[$i]</li>";
+
+echo"<li> $carros[$i] </li>";
+
 }
 echo "</ul>";
 
@@ -72,28 +75,24 @@ array_push($cadastro, $pessoa3);
 echo"<pre>";
 print_r($cadastro);
 echo"</pre>";
-
-
-for($i = 0; $i<10; $i++){
-    $numeros[$i] = rand(-10, 10);
-}
-
-
-
-$negativos = 0;
-$positivos = 0;
-for($i = 0; $i < 10; $i++)
+*/
+$numeros = array ( rand(- 10 , 10 ), rand(- 10 , 10 ), rand(- 10 , 10 ),
+                  rand(- 10 , 10 ), rand(- 10 , 10 ), rand(- 10 , 10 ),
+                  rand(- 10 , 10 ), rand(- 10 , 10 ), rand(- 10 , 10 ),
+                  rand( -10 , 10 ), );
+$negativas = 0 ;
+$positivo = 0 ;
+for( $i = 0 ; $i < 10 ; $i++)
 {
-   if($numero[$i] < 0)
-   {
-    $negativos++;
-   }else{
-    $positivos++;
-   }
+    if ( $numeros [ $i ] < 0 )
+    {
+        $negativas ++;
+     } else {
+        $positivo ++;
+    }
 }
+echo " Negativos : $ positivos positivos $ <pre> ";
+print_r( $numeros );
+echo " </pre> ";
 
-echo"Negativos: $negativos Positivos $positivos<pre>";
-print_r($numeros);
-echo"</pre>";
-
-?>
+?> 
