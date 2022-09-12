@@ -24,7 +24,7 @@ function soma($num)
 
 
 
-/*4-)Utilizando o For imprima a tabuada do 144.*/
+/*4-)Utilizando o For imprima a tabuada do 144.*/ 
 
 for($i = 0; $i <= 10; $i++)
 {
