@@ -1,5 +1,5 @@
 <?php include "./cabecalho.php"; ?>
 
-<h1>Cadastro</h1>
+<h1>Portifolio</h1>
 
 <?php include "./rodape.php";?>
