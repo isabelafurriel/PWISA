@@ -44,6 +44,9 @@
         <li class="nav-item">
           <a class="nav-link" href ="./clientes.php">Clientes</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href ="./disciplinas.php">Disciplinas</a>
+        </li>
       </ul>
     </div>
   </div>
