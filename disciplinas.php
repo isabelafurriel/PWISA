@@ -54,6 +54,7 @@
                                             <?php
                                             for ($i = 0; $i < count($dados); $i++) {
                                             ?>
+                                            //repetindo as linhas pela quantidade de intens dados)//
                                                 <tr>
                                                     <td> <?php echo $dados[$i]["disciplinaId"]; ?> </td>
                                                     <td> <?php echo $dados[$i]["nome"]; ?> </td>
